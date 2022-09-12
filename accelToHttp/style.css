@@ -1,0 +1,99 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  background: aquamarine;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.textN {
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+
+#image{
+position: fixed;
+}
+
+#image_drop_area{
+  background: rgb(204, 203, 216);
+  width: 300px;
+  height: 169px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#dropped_image_area{
+background: rgb(204, 203, 216);
+width: 600px;
+height: 169px;
+border: 1px solid black;
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+}
+
+#image_drop_area:hover{
+ width: 300px;
+ height: 169px;
+ border: 1px solid rgb(67, 22, 230);
+ background-position: center;
+ background-size: cover;
+ box-sizing: border-box;
+}
+
+.dropbtn {
+ background-color: #3498DB;
+ color: white;
+ padding: 16px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+ background-color: #2980B9;
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: rgb(204, 203, 216);
+ min-width: 160px;
+ overflow: auto;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.show {display: block;}
+
