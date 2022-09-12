@@ -9,3 +9,9 @@ A python broker that recieves HTTP GET requests and sends MQTT messages to Esp82
 A C++ project that runs on the Esp8266 to recieve MQTT messages and act accordingly...
 
 Thanks to Omer Erman my R&D partner for this project.
+
+Read my post about the project on my Linkedin profile
+ - https://www.linkedin.com/posts/the-noga-rosenberg_finalproject-activity-6940227835986857984-aoDX?utm_source=share&utm_medium=member_desktop
+
+Read our project's blog
+ - https://avivyativ.wixsite.com/milab/blog
